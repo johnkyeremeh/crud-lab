@@ -7,8 +7,8 @@ export const addReview = (review) => {
     }
 }
 
-export const deleteReview = (id) => {
+export const deleteReview = (id, restaurantID) => {
     return {
-        type: "DELETE_REVIEW", id: id
+        type: "DELETE_REVIEW", id: id, restaurantID: restaurantID
     }
 }
