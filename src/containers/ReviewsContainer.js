@@ -10,12 +10,18 @@ class ReviewsContainer extends Component {
     return (
       <div>
         <ReviewInput addReview={this.props.addReview}/>
-        <Reviews restaurantID={this.props.restaurant.id}  deleteReview={this.props.deleteReview}/>
+        <Reviews reviews={this.props.reviews}  deleteReview={this.props.deleteReview}/>
       </div>
     )
   }
 }
 
 
+const mapStateToProps  = (state) => {
+  return {
+    reviews: state.reviews
+  }
+}
 
-export default connect(null, {addReview, deleteReview})(ReviewsContainer);
+
+export default connect(mapStateToProps, {addReview, deleteReview})(ReviewsContainer);

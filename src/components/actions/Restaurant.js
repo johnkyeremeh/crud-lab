@@ -1,6 +1,6 @@
 
 import cuid from 'cuid';
-export const cuidFn = cuid;
+
 
 export const addRestaurant = (restaurant) => {
     return {

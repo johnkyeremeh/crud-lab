@@ -5,12 +5,16 @@ class Review extends Component {
   render() {
     const { review } = this.props;
 
+    const deleteOnClick = (event) => {
+      this.props.deleteReview(this.props.review.id)
+    }
+
     return (
       <div>
         <li>
           {review.text}
         </li>
-        <button> X </button>
+        <button onClick={this.handleclick}> X </button>
       </div>
     );
   }

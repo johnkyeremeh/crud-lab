@@ -2,39 +2,39 @@
   "stats": {
     "suites": 7,
     "tests": 25,
-    "passes": 19,
+    "passes": 22,
     "pending": 0,
-    "failures": 6,
-    "start": "2022-07-01T04:02:48.834Z",
-    "end": "2022-07-01T04:02:50.237Z",
-    "duration": 1403
+    "failures": 3,
+    "start": "2022-07-01T05:38:22.133Z",
+    "end": "2022-07-01T05:38:23.886Z",
+    "duration": 1753
   },
   "tests": [
     {
       "title": "has an text input field",
       "fullTitle": "RestaurantInput has an text input field",
-      "duration": 9,
+      "duration": 35,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an initial state with text key set to empty string",
       "fullTitle": "RestaurantInput has an initial state with text key set to empty string",
-      "duration": 1,
+      "duration": 9,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "changes the component state with an onChange event",
       "fullTitle": "RestaurantInput changes the component state with an onChange event",
-      "duration": 5,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
-      "duration": 191,
+      "duration": 165,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,56 +48,56 @@
     {
       "title": "displays the appropriate text",
       "fullTitle": "Restaurant Component displays the appropriate text",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "renders an li",
       "fullTitle": "Restaurant Component renders an li",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an unique id property for each element",
       "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
-      "duration": 29,
+      "duration": 46,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has the restaurant as a prop",
       "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
-      "duration": 92,
+      "duration": 40,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
       "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
-      "duration": 19,
+      "duration": 21,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
-      "duration": 61,
+      "duration": 64,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays the ReviewInput component as a child of each Restaurant Component",
       "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
-      "duration": 19,
+      "duration": 22,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has two text input fields, one for review input, and another for submitting",
       "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -118,164 +118,135 @@
     {
       "title": "adds a review to the store when the form is submitted",
       "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
-      "duration": 34,
+      "duration": 52,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “html” is meant to be run on 1 node. 0 found instead.\n    at ReactWrapper.single (node_modules/enzyme/src/ReactWrapper.js:1168:13)\n    at ReactWrapper.html (node_modules/enzyme/src/ReactWrapper.js:641:17)\n    at Context.<anonymous> (test/reviews-test.js:59:33)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Method “html” is meant to be run on 1 node. 0 found instead."
-      }
+      "err": {}
     },
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
-      "duration": 147,
+      "duration": 135,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read properties of undefined (reading 'length')\n    at Context.<anonymous> (test/reviews-test.js:74:12)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Cannot read properties of undefined (reading 'length')"
-      }
+      "err": {}
     },
     {
       "title": "sets a property of restaurantId on the review input component from the parent components id",
       "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
-      "duration": 52,
+      "duration": 13,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "associates the review with the restaurant with a foreign key on the review",
       "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
-      "duration": 29,
+      "duration": 141,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at Context.<anonymous> (test/reviews-test.js:100:12)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Cannot read properties of undefined (reading '0')"
-      }
+      "err": {}
     },
     {
       "title": "is a child of the ReviewsContainer component",
       "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
-      "duration": 28,
+      "duration": 80,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays a review for when it is associated with the restaurant",
       "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
-      "duration": 31,
+      "duration": 46,
       "currentRetry": 0,
-      "err": {
-        "message": "expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0",
-        "showDiff": true,
-        "actual": "0",
-        "expected": "2",
-        "stack": "AssertionError: expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0\n    at Context.<anonymous> (test/reviews-test.js:124:42)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "does not display any review unassociated with the restaurant",
       "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
-      "duration": 10,
+      "duration": 25,
       "currentRetry": 0,
       "err": {
-        "message": "expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0",
+        "message": "expected ReactWrapper{ length: 3, …(9) } to have a length of 2 but got 3",
         "showDiff": true,
-        "actual": "0",
+        "actual": "3",
         "expected": "2",
-        "stack": "AssertionError: expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0\n    at Context.<anonymous> (test/reviews-test.js:135:42)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "AssertionError: expected ReactWrapper{ length: 3, …(9) } to have a length of 2 but got 3\n    at Context.<anonymous> (test/reviews-test.js:135:42)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "has an unique id property that for each element",
       "fullTitle": "Reviews Component has an unique id property that for each element",
-      "duration": 37,
+      "duration": 32,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
       "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
-      "duration": 25,
+      "duration": 212,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 1 to equal +0",
+        "showDiff": true,
+        "actual": "1",
+        "expected": "0",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 1 to equal +0\n    at Context.<anonymous> (test/reviews-test.js:171:44)\n    at processImmediate (node:internal/timers:466:21)"
+      }
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Reviews Component updates the state of the store to remove the component",
-      "duration": 47,
+      "duration": 35,
       "currentRetry": 0,
       "err": {
-        "stack": "TypeError: Cannot read properties of undefined (reading 'length')\n    at Context.<anonymous> (test/reviews-test.js:194:25)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Cannot read properties of undefined (reading 'length')"
+        "message": "expected 'I would rather walk 4 miles at night …' to equal 'Pricey'",
+        "showDiff": true,
+        "actual": "I would rather walk 4 miles at night to the next town",
+        "expected": "Pricey",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 'I would rather walk 4 miles at night …' to equal 'Pricey'\n    at Context.<anonymous> (test/reviews-test.js:198:32)\n    at processImmediate (node:internal/timers:466:21)"
       }
     }
   ],
   "pending": [],
   "failures": [
     {
-      "title": "adds a review to the store when the form is submitted",
-      "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
-      "duration": 34,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “html” is meant to be run on 1 node. 0 found instead.\n    at ReactWrapper.single (node_modules/enzyme/src/ReactWrapper.js:1168:13)\n    at ReactWrapper.html (node_modules/enzyme/src/ReactWrapper.js:641:17)\n    at Context.<anonymous> (test/reviews-test.js:59:33)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Method “html” is meant to be run on 1 node. 0 found instead."
-      }
-    },
-    {
-      "title": "updates the state of the store after submitting the form",
-      "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
-      "duration": 147,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read properties of undefined (reading 'length')\n    at Context.<anonymous> (test/reviews-test.js:74:12)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Cannot read properties of undefined (reading 'length')"
-      }
-    },
-    {
-      "title": "associates the review with the restaurant with a foreign key on the review",
-      "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
-      "duration": 29,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at Context.<anonymous> (test/reviews-test.js:100:12)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Cannot read properties of undefined (reading '0')"
-      }
-    },
-    {
-      "title": "displays a review for when it is associated with the restaurant",
-      "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
-      "duration": 31,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0",
-        "showDiff": true,
-        "actual": "0",
-        "expected": "2",
-        "stack": "AssertionError: expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0\n    at Context.<anonymous> (test/reviews-test.js:124:42)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
       "title": "does not display any review unassociated with the restaurant",
       "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
-      "duration": 10,
+      "duration": 25,
       "currentRetry": 0,
       "err": {
-        "message": "expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0",
+        "message": "expected ReactWrapper{ length: 3, …(9) } to have a length of 2 but got 3",
         "showDiff": true,
-        "actual": "0",
+        "actual": "3",
         "expected": "2",
-        "stack": "AssertionError: expected ReactWrapper{ length: +0, …(9) } to have a length of 2 but got +0\n    at Context.<anonymous> (test/reviews-test.js:135:42)\n    at processImmediate (node:internal/timers:466:21)"
+        "stack": "AssertionError: expected ReactWrapper{ length: 3, …(9) } to have a length of 2 but got 3\n    at Context.<anonymous> (test/reviews-test.js:135:42)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
+      "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
+      "duration": 212,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 1 to equal +0",
+        "showDiff": true,
+        "actual": "1",
+        "expected": "0",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 1 to equal +0\n    at Context.<anonymous> (test/reviews-test.js:171:44)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Reviews Component updates the state of the store to remove the component",
-      "duration": 47,
+      "duration": 35,
       "currentRetry": 0,
       "err": {
-        "stack": "TypeError: Cannot read properties of undefined (reading 'length')\n    at Context.<anonymous> (test/reviews-test.js:194:25)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "Cannot read properties of undefined (reading 'length')"
+        "message": "expected 'I would rather walk 4 miles at night …' to equal 'Pricey'",
+        "showDiff": true,
+        "actual": "I would rather walk 4 miles at night to the next town",
+        "expected": "Pricey",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 'I would rather walk 4 miles at night …' to equal 'Pricey'\n    at Context.<anonymous> (test/reviews-test.js:198:32)\n    at processImmediate (node:internal/timers:466:21)"
       }
     }
   ],
@@ -283,28 +254,28 @@
     {
       "title": "has an text input field",
       "fullTitle": "RestaurantInput has an text input field",
-      "duration": 9,
+      "duration": 35,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an initial state with text key set to empty string",
       "fullTitle": "RestaurantInput has an initial state with text key set to empty string",
-      "duration": 1,
+      "duration": 9,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "changes the component state with an onChange event",
       "fullTitle": "RestaurantInput changes the component state with an onChange event",
-      "duration": 5,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
-      "duration": 191,
+      "duration": 165,
       "currentRetry": 0,
       "err": {}
     },
@@ -318,56 +289,56 @@
     {
       "title": "displays the appropriate text",
       "fullTitle": "Restaurant Component displays the appropriate text",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "renders an li",
       "fullTitle": "Restaurant Component renders an li",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an unique id property for each element",
       "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
-      "duration": 29,
+      "duration": 46,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has the restaurant as a prop",
       "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
-      "duration": 92,
+      "duration": 40,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
       "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
-      "duration": 19,
+      "duration": 21,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
-      "duration": 61,
+      "duration": 64,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays the ReviewInput component as a child of each Restaurant Component",
       "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
-      "duration": 19,
+      "duration": 22,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has two text input fields, one for review input, and another for submitting",
       "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -386,30 +357,51 @@
       "err": {}
     },
     {
+      "title": "adds a review to the store when the form is submitted",
+      "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
+      "duration": 135,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "sets a property of restaurantId on the review input component from the parent components id",
       "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
-      "duration": 52,
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "associates the review with the restaurant with a foreign key on the review",
+      "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
+      "duration": 141,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a child of the ReviewsContainer component",
       "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
-      "duration": 28,
+      "duration": 80,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "displays a review for when it is associated with the restaurant",
+      "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
+      "duration": 46,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an unique id property that for each element",
       "fullTitle": "Reviews Component has an unique id property that for each element",
-      "duration": 37,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
-      "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
-      "duration": 25,
+      "duration": 32,
       "currentRetry": 0,
       "err": {}
     }
