@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 import Review from './Review';
 
+
+//filter by review and only show ones that belong to to it.
+
+
 class Reviews extends Component {
+
+
+
   render() {
+    const {reviews, restaurantID, deleteReview} = this.props
+
+    const reviewFilter =  reviews.filter(review => review.restaurantID === restaurantID)
+    console.log("rest value", reviewFilter)
     return (
       <ul>
-        {this.props.reviews.map(review => < Review key={review.id} review={review} deleteReview={this.props.deleteReview} restaurantID={this.props.restaurantID} />)}
+        {reviewFilter.map(review => < Review key={review.id} review={review} deleteReview={deleteReview} restaurantID={this.props.restaurantID} />)}
         {/* <Review review={this.props.review}/> */}
       </ul>
     );

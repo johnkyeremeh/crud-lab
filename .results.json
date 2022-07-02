@@ -5,15 +5,15 @@
     "passes": 24,
     "pending": 0,
     "failures": 1,
-    "start": "2022-07-02T20:38:22.701Z",
-    "end": "2022-07-02T20:38:24.083Z",
-    "duration": 1382
+    "start": "2022-07-02T21:57:34.830Z",
+    "end": "2022-07-02T21:57:35.928Z",
+    "duration": 1098
   },
   "tests": [
     {
       "title": "has an text input field",
       "fullTitle": "RestaurantInput has an text input field",
-      "duration": 12,
+      "duration": 10,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
-      "duration": 251,
+      "duration": 133,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,119 +48,119 @@
     {
       "title": "displays the appropriate text",
       "fullTitle": "Restaurant Component displays the appropriate text",
-      "duration": 7,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "renders an li",
       "fullTitle": "Restaurant Component renders an li",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an unique id property for each element",
       "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
-      "duration": 49,
+      "duration": 116,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has the restaurant as a prop",
       "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
-      "duration": 21,
+      "duration": 35,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
       "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
-      "duration": 14,
+      "duration": 15,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
-      "duration": 70,
+      "duration": 43,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays the ReviewInput component as a child of each Restaurant Component",
       "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
-      "duration": 18,
+      "duration": 19,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has two text input fields, one for review input, and another for submitting",
       "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
-      "duration": 7,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an initial state with text key set to empty string",
       "fullTitle": "ReviewInput Component has an initial state with text key set to empty string",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "changes the component state with an onChange event",
       "fullTitle": "ReviewInput Component changes the component state with an onChange event",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "adds a review to the store when the form is submitted",
       "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
-      "duration": 52,
+      "duration": 51,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
-      "duration": 40,
+      "duration": 63,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "sets a property of restaurantId on the review input component from the parent components id",
       "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
-      "duration": 21,
+      "duration": 15,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "associates the review with the restaurant with a foreign key on the review",
       "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
-      "duration": 22,
+      "duration": 25,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a child of the ReviewsContainer component",
       "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
-      "duration": 27,
+      "duration": 14,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays a review for when it is associated with the restaurant",
       "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
-      "duration": 9,
+      "duration": 25,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not display any review unassociated with the restaurant",
       "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
-      "duration": 45,
+      "duration": 21,
       "currentRetry": 0,
       "err": {
         "message": "expected ReactWrapper{ length: 3, …(9) } to have a length of 2 but got 3",
@@ -173,21 +173,21 @@
     {
       "title": "has an unique id property that for each element",
       "fullTitle": "Reviews Component has an unique id property that for each element",
-      "duration": 70,
+      "duration": 42,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
       "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
-      "duration": 87,
+      "duration": 43,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Reviews Component updates the state of the store to remove the component",
-      "duration": 52,
+      "duration": 44,
       "currentRetry": 0,
       "err": {}
     }
@@ -197,7 +197,7 @@
     {
       "title": "does not display any review unassociated with the restaurant",
       "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
-      "duration": 45,
+      "duration": 21,
       "currentRetry": 0,
       "err": {
         "message": "expected ReactWrapper{ length: 3, …(9) } to have a length of 2 but got 3",
@@ -212,7 +212,7 @@
     {
       "title": "has an text input field",
       "fullTitle": "RestaurantInput has an text input field",
-      "duration": 12,
+      "duration": 10,
       "currentRetry": 0,
       "err": {}
     },
@@ -233,7 +233,7 @@
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
-      "duration": 251,
+      "duration": 133,
       "currentRetry": 0,
       "err": {}
     },
@@ -247,133 +247,133 @@
     {
       "title": "displays the appropriate text",
       "fullTitle": "Restaurant Component displays the appropriate text",
-      "duration": 7,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "renders an li",
       "fullTitle": "Restaurant Component renders an li",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an unique id property for each element",
       "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
-      "duration": 49,
+      "duration": 116,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has the restaurant as a prop",
       "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
-      "duration": 21,
+      "duration": 35,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
       "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
-      "duration": 14,
+      "duration": 15,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
-      "duration": 70,
+      "duration": 43,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays the ReviewInput component as a child of each Restaurant Component",
       "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
-      "duration": 18,
+      "duration": 19,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has two text input fields, one for review input, and another for submitting",
       "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
-      "duration": 7,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an initial state with text key set to empty string",
       "fullTitle": "ReviewInput Component has an initial state with text key set to empty string",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "changes the component state with an onChange event",
       "fullTitle": "ReviewInput Component changes the component state with an onChange event",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "adds a review to the store when the form is submitted",
       "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
-      "duration": 52,
+      "duration": 51,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store after submitting the form",
       "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
-      "duration": 40,
+      "duration": 63,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "sets a property of restaurantId on the review input component from the parent components id",
       "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
-      "duration": 21,
+      "duration": 15,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "associates the review with the restaurant with a foreign key on the review",
       "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
-      "duration": 22,
+      "duration": 25,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a child of the ReviewsContainer component",
       "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
-      "duration": 27,
+      "duration": 14,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "displays a review for when it is associated with the restaurant",
       "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
-      "duration": 9,
+      "duration": 25,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an unique id property that for each element",
       "fullTitle": "Reviews Component has an unique id property that for each element",
-      "duration": 70,
+      "duration": 42,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
       "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
-      "duration": 87,
+      "duration": 43,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "updates the state of the store to remove the component",
       "fullTitle": "Reviews Component updates the state of the store to remove the component",
-      "duration": 52,
+      "duration": 44,
       "currentRetry": 0,
       "err": {}
     }

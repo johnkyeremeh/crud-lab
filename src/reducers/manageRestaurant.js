@@ -16,8 +16,10 @@ function restaurantReducer(state = [], action){
     let idx;
 
     console.log(action)
+    console.log(state)
     switch(action.type){
         case "ADD_RESTAURANT":
+            
             return state.concat(action.text)
         case "DELETE_RESTAURANT":   
             idx = state.findIndex(restaurant => restaurant.id === action.id )
@@ -27,12 +29,14 @@ function restaurantReducer(state = [], action){
     }   
 }
 
-//convert to object
+////find the restaruant and state
+////
 function reviewsReducer(state = [], action){
     let idx;
     console.log(action)
     switch(action.type){
         case "ADD_REVIEW":
+            
             const review = { text: action.text, restaurantID: action.restaurantID, id: cuidFn() };
             console.log("NEW REVIEW", review)
             return [...state, review]
@@ -46,12 +50,20 @@ function reviewsReducer(state = [], action){
     
 }
  
+
+//state = {} 
+// Reviews is array of object reviews and look through restaurant that has the ID
 //  function manageRestaurants(state = {
 //     restaurants: [],
 //     reviews: []
 // }, action) {
 
 //     let idx; 
+
+// pass in all your restarueants and reviews.
+//restarurant = state. restaurants.find(where restaurantID == resturant.ID)
+//update the restraunt with 
+//
 
 //     console.log(action)
 //     switch(action.type){
