@@ -33,9 +33,7 @@ function reviewsReducer(state = [], action){
     switch(action.type){
         case "ADD_REVIEW":
             const review = { text: action.text, restaurantId: action.restaurantId, id: cuidFn() };
-            return [...state,
-                review
-            ]
+            return [...state, review]
         case "DELETE_REVIEW":   
             idx = state.findIndex(review => review.id === action.id )
             return [...state.slice(0, idx), ...state.slice(idx + 1)]
