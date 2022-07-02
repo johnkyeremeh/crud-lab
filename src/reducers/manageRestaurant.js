@@ -27,15 +27,17 @@ function restaurantReducer(state = [], action){
     }   
 }
 
+//convert to object
 function reviewsReducer(state = [], action){
     let idx;
     console.log(action)
     switch(action.type){
         case "ADD_REVIEW":
-            const review = { text: action.text, restaurantId: action.restaurantId, id: cuidFn() };
+            const review = { text: action.text, restaurantID: action.restaurantID, id: cuidFn() };
+            console.log("NEW REVIEW", review)
             return [...state, review]
         case "DELETE_REVIEW":   
-            idx = state.findIndex(review => review.id === action.id )
+            idx = state.findIndex(review => review.id === action.id)
             return [...state.slice(0, idx), ...state.slice(idx + 1)]
         default:
             return state 

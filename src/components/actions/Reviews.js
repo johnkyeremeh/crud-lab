@@ -1,9 +1,9 @@
 // import cuid from 'cuid';
 
 
-export const addReview = (review) => {
+export const addReview = (review, restaurantID) => {
     return {
-        type: "ADD_REVIEW", text: review
+        type: "ADD_REVIEW", text: review , restaurantID: restaurantID
     }
 }
 
